@@ -471,10 +471,12 @@
         
         .modal-description-container {
             max-height: 300px;
-            overflow-y: auto;
-            padding: 10px 20px;
-            margin: 0 auto;
-            text-align: center;
+        overflow-y: auto;
+        padding: 10px 20px;
+        margin: 0 auto;
+        text-align: left;
+        white-space: pre-line; /* ← ADD THIS */
+        line-height: 1.8; /* ← Optional: makes paragraphs more readable */
         }
         
         /* Scrollbar styling for description */
@@ -715,6 +717,7 @@
     }
 }
 
+
     </style>
 </head>
 <body>
@@ -851,32 +854,32 @@
     <!-- Contact Section -->
     <section id="contact" class="py-20 px-6 bg-white">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-4xl md:text-5xl text-center mb-4 fade-in" style="font-family: 'Cormorant Garamond', serif;">Get in Touch</h2>
-            <p class="text-center text-gray-600 mb-12 fade-in">For commissions, collaborations, or inquiries about available works</p>
+            <h2 class="text-4xl md:text-5xl text-center mb-4 fade-in" style="font-family: 'Cormorant Garamond', serif;">Contactar</h2>
+            <p class="text-center text-gray-600 mb-12 fade-in"></p>
             
             <form id="contact-form" class="fade-in">
                 <div class="mb-6">
-                    <label for="name" class="block text-sm tracking-wider mb-2">NAME</label>
+                    <label for="name" class="block text-sm tracking-wider mb-2">NOME</label>
                     <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-sm">
                 </div>
                 
                 <div class="mb-6">
-                    <label for="email" class="block text-sm tracking-wider mb-2">EMAIL</label>
+                    <label for="email" class="block text-sm tracking-wider mb-2">E-MAIL</label>
                     <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-sm">
                 </div>
                 
                 <div class="mb-6">
-                    <label for="subject" class="block text-sm tracking-wider mb-2">SUBJECT</label>
+                    <label for="subject" class="block text-sm tracking-wider mb-2">ASSUNTO</label>
                     <input type="text" id="subject" name="subject" required class="w-full px-4 py-3 border border-gray-300 rounded-sm">
                 </div>
                 
                 <div class="mb-6">
-                    <label for="message" class="block text-sm tracking-wider mb-2">MESSAGE</label>
+                    <label for="message" class="block text-sm tracking-wider mb-2">MENSAGEM</label>
                     <textarea id="message" name="message" rows="6" required class="w-full px-4 py-3 border border-gray-300 rounded-sm"></textarea>
                 </div>
                 
                 <button type="submit" class="w-full px-8 py-4 bg-[#9d8b7c] text-white tracking-wider text-sm hover:bg-[#8a7a6c] transition-all duration-300">
-                    SEND MESSAGE
+                    ENVIAR MENSAGEM
                 </button>
                 
                 <div id="form-message" class="mt-4 text-center hidden"></div>
@@ -884,12 +887,12 @@
             
             <!-- Newsletter Signup -->
             <div class="mt-16 p-8 bg-[#f5f0eb] rounded-sm text-center fade-in">
-                <h3 class="text-2xl mb-3" style="font-family: 'Cormorant Garamond', serif;">Stay Updated</h3>
-                <p class="text-gray-600 mb-6">Subscribe to receive updates on new works and exhibitions</p>
+                <h3 class="text-2xl mb-3" style="font-family: 'Cormorant Garamond', serif;">Newsletter</h3>
+                <p class="text-gray-600 mb-6">Subscreve para receberes atualizações sobre o meu trabalho</p>
                 <form id="newsletter-form" class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-                    <input type="email" id="newsletter-email" placeholder="Your email" required class="flex-1 px-4 py-3 border border-gray-300 rounded-sm">
+                    <input type="email" id="newsletter-email" placeholder="Teu e-mail" required class="flex-1 px-4 py-3 border border-gray-300 rounded-sm">
                     <button type="submit" class="px-6 py-3 bg-[#2d2d2d] text-white tracking-wider text-sm hover:bg-black transition-all duration-300">
-                        SUBSCRIBE
+                        SUBSCREVE
                     </button>
                 </form>
                 <div id="newsletter-message" class="mt-4 hidden"></div>
@@ -902,12 +905,12 @@
     <footer class="py-12 px-6 bg-[#2d2d2d] text-white">
         <div class="max-w-7xl mx-auto text-center">
             <p class="text-3xl mb-4" style="font-family: 'Cormorant Garamond', serif;">hqrz</p>
-            <p class="text-sm text-gray-400 mb-6">Visual Artist</p>
+            <p class="text-sm text-gray-400 mb-6">Fotógrafa • Arquiteta • Escritora de poesia</p>
             <div class="flex justify-center space-x-6 mb-8">
                 <a href="https://www.instagram.com/hqrz" target="_blank" rel="noopener" class="hover:text-[#9d8b7c] transition-colors">Instagram</a>
-                <a href="#contact" class="hover:text-[#9d8b7c] transition-colors">Contact</a>
+                <a href="#contact" class="hover:text-[#9d8b7c] transition-colors">Contacto</a>
             </div>
-            <p class="text-xs text-gray-500">&copy; 2024 hqrz. All rights reserved.</p>
+            <p class="text-xs text-gray-500">&copy; 2025 hqrz. Todos os direitos reservados.</p>
         </div>
     </footer>
     
@@ -961,9 +964,9 @@
             {
                 id: 1,
                 images: [
-                    "media/portfolio/atravessar/1.jpg",
-                    "media/portfolio/atravessar/2.jpg",
-                    "media/portfolio/atravessar/3.jpg"
+                    "media/portfolio/1 - atravessar/1.png",
+                    "media/portfolio/1 - atravessar/2.png",
+                    "media/portfolio/1 - atravessar/3.png"
                 ],
                 title: "Atravessar",
                 medium: "Porto, Portugal",
@@ -974,12 +977,12 @@
             {
                 id: 2,
                 images: [
-                    "media/portfolio/escultura aberta/1.jpg",
-                    "media/portfolio/escultura aberta/2.jpg",
-                    "media/portfolio/escultura aberta/3.jpg",
-                    "media/portfolio/escultura aberta/4.jpg",
-                    "media/portfolio/escultura aberta/5.jpg",
-                    "media/portfolio/escultura aberta/6.jpg",
+                    "media/portfolio/2 - escultura aberta/1.png",
+                    "media/portfolio/2 - escultura aberta/2.png",
+                    "media/portfolio/2 - escultura aberta/3.png",
+                    "media/portfolio/2 - escultura aberta/4.png",
+                    "media/portfolio/2 - escultura aberta/5.png",
+                    "media/portfolio/2 - escultura aberta/6.png",
                 ],
                 title: "Escultura Aberta - Álvaro Siza",
                 medium: "Leça do Balio, Porto, Portugal",
@@ -990,8 +993,8 @@
             {
                 id: 3,
                 images: [
-                    "media/portfolio/porto/1.png",
-                    "media/portfolio/porto/2.png",
+                    "media/portfolio/3 - o douro/1.png",
+                    "media/portfolio/3 - o douro/2.png",
                 ],
                 title: "O Douro",
                 medium: "Porto, Portugal",
@@ -1002,9 +1005,9 @@
             {
                 id: 4,
                 images: [
-                    "media/portfolio/sevilha/1.png",
-                    "media/portfolio/sevilha/2.png",
-                    "media/portfolio/sevilha/3.png",
+                    "media/portfolio/4 - a temperatura do flamenco/1.png",
+                    "media/portfolio/4 - a temperatura do flamenco/2.png",
+                    "media/portfolio/4 - a temperatura do flamenco/3.png",
                 ],
                 title: "A temperatura do Flamenco",
                 medium: "Sevilha, Espanha",
@@ -1015,23 +1018,37 @@
             {
                 id: 5,
                 images: [
-                    "media/portfolio/até ao cais/1.jpg"
+                    "media/portfolio/5 - até ao cais/1.png"
                 ],
                 title: "Até ao Cais",
                 medium: "Foz do Douro",
                 dimensions: "2022",
-                description: "Muda o barco, fica o rio, e tantas vezes confundo-me entre o rio e o cais: entristeço o poema pelas margens até só restar a saudade. Muda o barco e fica o rio que é sempre um pedaço de mar, e tantas vezes confundo-me entre o cais e a praia. Confundo-me porque em qualquer um deles poderia ficar à tua espera. Tu sabes: todos nós temos um silêncio por alguém. Tu sabes. Porque, contemporânea a ti, faço da memória a minha profissão e trabalho sempre contigo. Muda o barco e fica o rio e a tua pele oceânica justifica esta pouca distância em que existo na tua direção. Tu sabes. li uma vez que o amor é o meio do mar: um dia acordamos, e lá estamos – disse-me o Rui Caeiro. Mas eu nunca soube dizer de que parte do mar vinhas tu. Talvez tenhas vindo da palavra barco, porque atravesso o rio quando quero estar numa só margem contigo. Deduzimos sempre o outro lado. tu sabes. (encarar um barco de frente: és tu a chegar.) Mas tu sabes que se o rio fosse pequeno o bastante para um só cais; se o oceano, com uma única praia, tivesse pouco horizonte; ou se no teu pulso houvesse apenas uma minúscula margem de tempo… seria nesse lugar que eu estaria à tua espera, com o meu corpo vestido de encontro. Repentino e sem receio. ingénuo a ponto de chegar e genuíno a ponto de permanecer - mudam as temperaturas, nomes e recipientes e nunca deixamos de ser água. Muda o barco, sim, mas quanto de mar existe neste nosso rio?",
+                description: "Muda o barco, fica o rio, e tantas vezes confundo-me entre o rio e o cais: entristeço o poema pelas margens até só restar a saudade. \n\n Muda o barco e fica o rio que é sempre um pedaço de mar, e tantas vezes confundo-me entre o cais e a praia. Confundo-me porque em qualquer um deles poderia ficar à tua espera. Tu sabes: todos nós temos um silêncio por alguém. Tu sabes. Porque, contemporânea a ti, faço da memória a minha profissão e trabalho sempre contigo. \n\n Muda o barco e fica o rio e a tua pele oceânica justifica esta pouca distância em que existo na tua direção. Tu sabes. li uma vez que o amor é o meio do mar: um dia acordamos, e lá estamos – disse-me o Rui Caeiro. Mas eu nunca soube dizer de que parte do mar vinhas tu. \n\n Talvez tenhas vindo da palavra barco, porque atravesso o rio quando quero estar numa só margem contigo. Deduzimos sempre o outro lado. tu sabes. (encarar um barco de frente: és tu a chegar.) \n\n Mas tu sabes que se o rio fosse pequeno o bastante para um só cais; se o oceano, com uma única praia, tivesse pouco horizonte; ou se no teu pulso houvesse apenas uma minúscula margem de tempo… seria nesse lugar que eu estaria à tua espera, com o meu corpo vestido de encontro. \n\n Repentino e sem receio. ingénuo a ponto de chegar e genuíno a ponto de permanecer - mudam as temperaturas, nomes e recipientes e nunca deixamos de ser água. \n\n Muda o barco, sim, mas quanto de mar existe neste nosso rio?",
                 category: ["fotografar", "escrever"]
             },
             {
                 id: 6,
                 images: [
-                    "media/portfolio/bairro da bouça/1.jpg",
-                    "media/portfolio/bairro da bouça/2.jpg",
-                    "media/portfolio/bairro da bouça/3.jpg",
-                    "media/portfolio/bairro da bouça/4.jpg",
-                    "media/portfolio/bairro da bouça/5.jpg",
-                    "media/portfolio/bairro da bouça/6.jpg"
+                    "media/portfolio/6 - mercado do bolhão/1.png",
+                    "media/portfolio/6 - mercado do bolhão/2.png",
+                    "media/portfolio/6 - mercado do bolhão/3.png",
+                    "media/portfolio/6 - mercado do bolhão/4.png"
+                ],
+                title: "Mercado do Bolhão",
+                medium: "Porto, Portugal",
+                dimensions: "2022",
+                description: "",
+                category: ["fotografar", "arquitetura"]
+            },
+            {
+                id: 7,
+                images: [
+                    "media/portfolio/7 - bairro da bouça/1.png",
+                    "media/portfolio/7 - bairro da bouça/2.png",
+                    "media/portfolio/7 - bairro da bouça/3.png",
+                    "media/portfolio/7 - bairro da bouça/4.png",
+                    "media/portfolio/7 - bairro da bouça/5.png",
+                    "media/portfolio/7 - bairro da bouça/6.png"
                 ],
                 title: "Bairro da Bouça - Álvaro Siza",
                 medium: "Porto, Portugal",
@@ -1040,13 +1057,13 @@
                 category: ["fotografar", "arquitetura"]
             },
             {
-                id: 7,
+                id: 8,
                 images: [
-                    "media/portfolio/batalha/1.png",
-                    "media/portfolio/batalha/2.png",
-                    "media/portfolio/batalha/3.png",
-                    "media/portfolio/batalha/4.png",
-                    "media/portfolio/batalha/5.png"
+                    "media/portfolio/8 - cinema batalha/1.png",
+                    "media/portfolio/8 - cinema batalha/2.png",
+                    "media/portfolio/8 - cinema batalha/3.png",
+                    "media/portfolio/8 - cinema batalha/4.png",
+                    "media/portfolio/8 - cinema batalha/5.png"
                     
                 ],
                 title: "Cinema Batalha - Artur Andrade",
@@ -1054,6 +1071,287 @@
                 dimensions: "2025",
                 description: " • Projeto de reabilitação por 'Atelier 15' •",
                 category: ["fotografar", "arquitetura"]
+            },
+            {
+                id: 9,
+                images: [
+                    "media/portfolio/9 - garagem comércio do porto 2025/1.png",
+                    "media/portfolio/9 - garagem comércio do porto 2025/2.png",
+                    "media/portfolio/9 - garagem comércio do porto 2025/3.png",
+                    "media/portfolio/9 - garagem comércio do porto 2025/4.png"
+                ],
+                title: "Garagem Comércio do Porto - Rogério de Azevedo",
+                medium: "Porto, Portugal",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar", "arquitetura"]
+            },
+            {
+                id: 10,
+                images: [
+                    "media/portfolio/10 - garagem passos manuel 2025/1.png",
+                    "media/portfolio/10 - garagem passos manuel 2025/2.png",
+                    "media/portfolio/10 - garagem passos manuel 2025/3.png"                    
+                ],
+                title: "Garagem Passos Manuel - Mário Abreu",
+                medium: "Porto, Portugal",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar", "arquitetura"]
+            },
+            {
+                id: 11,
+                images: [
+                    "media/portfolio/11 - museu do côa 2022/1.png",
+                    "media/portfolio/11 - museu do côa 2022/2.png",
+                    "media/portfolio/11 - museu do côa 2022/3.png",
+                    "media/portfolio/11 - museu do côa 2022/4.png",
+                    "media/portfolio/11 - museu do côa 2022/5.png"
+                    
+                ],
+                title: "Museu do Côa - Camilo Rebelo",
+                medium: "Vila Nova de Foz Côa, Portugal",
+                dimensions: "2022",
+                description: "",
+                category: ["fotografar", "arquitetura"]
+            },
+            {
+                id: 12,
+                images: [
+                    "media/portfolio/12 - o meu espelho 2025/1.png"
+                ],
+                title: "O meu espelho",
+                medium: "Porto, Portugal",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar", "escrever"]
+            },
+            {
+                id: 13,
+                images: [
+                    "media/portfolio/13 - via rabelo/1.png",
+                    "media/portfolio/13 - via rabelo/2.png",
+                    "media/portfolio/13 - via rabelo/3.png",
+                    "media/portfolio/13 - via rabelo/4.png",
+                    "media/portfolio/13 - via rabelo/5.png"
+                    
+                ],
+                title: "Via Rabelo",
+                medium: "Porto, Portugal",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar"]
+            },
+            {
+                id: 14,
+                images: [
+                    "media/portfolio/14 - retrato/1.png",
+                    "media/portfolio/14 - retrato/2.png",
+                    "media/portfolio/14 - retrato/3.png",
+                    "media/portfolio/14 - retrato/4.png",
+                    "media/portfolio/14 - retrato/5.png",
+                    "media/portfolio/14 - retrato/6.png"
+                ],
+                title: "Retrato",
+                medium: "Porto, Portugal",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar"]
+            },
+            {
+                id: 15,
+                images: [
+                    "media/portfolio/15 - kursaal san sebastian 2022/1.png",
+                    "media/portfolio/15 - kursaal san sebastian 2022/2.png",
+                    "media/portfolio/15 - kursaal san sebastian 2022/3.png",
+                    "media/portfolio/15 - kursaal san sebastian 2022/4.png",
+                    "media/portfolio/15 - kursaal san sebastian 2022/5.png"
+                    
+                ],
+                title: "Auditório Kursaal - Rafael Moneo",
+                medium: "San Sebastián, Espanha",
+                dimensions: "2022",
+                description: "",
+                category: ["fotografar", "arquitetura"]
+            },
+            {
+                id: 16,
+                images: [
+                    "media/portfolio/16 - igreja do sagrado coração de jesus 2022 lisboa/1.png",
+                    "media/portfolio/16 - igreja do sagrado coração de jesus 2022 lisboa/2.png",
+                    "media/portfolio/16 - igreja do sagrado coração de jesus 2022 lisboa/3.png",
+                    "media/portfolio/16 - igreja do sagrado coração de jesus 2022 lisboa/4.png",
+                    "media/portfolio/16 - igreja do sagrado coração de jesus 2022 lisboa/5.png"
+                    
+                ],
+                title: "Igreja do Sagrado Coração de Jesus - Nuno Portas & Nuno Teotónio Pereira",
+                medium: "Lisboa, Portugal",
+                dimensions: "2022",
+                description: "",
+                category: ["fotografar", "arquitetura"]
+            },
+            {
+                id: 17,
+                images: [
+                    "media/portfolio/17 - centro miguel torga/1.png",
+                    "media/portfolio/17 - centro miguel torga/2.png",
+                    "media/portfolio/17 - centro miguel torga/3.png"
+                ],
+                title: "Centro Miguel Torga - Souto Moura",
+                medium: "São Martinho de Anta, Portugal",
+                dimensions: "2022",
+                description: "",
+                category: ["fotografar", "arquitetura"]
+            },
+            {
+                id: 18,
+                images: [
+                    "media/portfolio/18 - silêncio/1.png",
+                    "media/portfolio/18 - silêncio/2.png",
+                    "media/portfolio/18 - silêncio/3.png",
+                    "media/portfolio/18 - silêncio/4.png"
+                ],
+                title: "Silêncio",
+                medium: "Chaves, Portugal",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar", "escrever"]
+            },
+            {
+                id: 19,
+                images: [
+                    "media/portfolio/19 - escultura - 2025/1.png",
+                    "media/portfolio/19 - escultura - 2025/2.png"
+                ],
+                title: "Afeto em Escultura",
+                medium: "Pernambuco, Brasil",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar"]
+            },
+            {
+                id: 20,
+                images: [
+                    "media/portfolio/20 - companhia/1.png"
+                ],
+                title: "Companhia",
+                medium: "Alagoas, Brasil",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar", "escrever"]
+            },
+            {
+                id: 21,
+                images: [
+                    "media/portfolio/21 - curiosidade 2025/1.png",
+                    "media/portfolio/21 - curiosidade 2025/2.png",
+                    "media/portfolio/21 - curiosidade 2025/3.png",
+                    "media/portfolio/21 - curiosidade 2025/4.png",
+                    "media/portfolio/21 - curiosidade 2025/5.png"                    
+                ],
+                title: "Curiosidade Atenta",
+                medium: "Pernambuco, Brasil",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar"]
+            },
+            {
+                id: 22,
+                images: [
+                    "media/portfolio/22 - curiosidade 2 2025/1.png",
+                    "media/portfolio/22 - curiosidade 2 2025/2.png",
+                    "media/portfolio/22 - curiosidade 2 2025/3.png",
+                    "media/portfolio/22 - curiosidade 2 2025/4.png",
+                    "media/portfolio/22 - curiosidade 2 2025/5.png"                    
+                ],
+                title: "Entre os frutos e o Mar, a Ternura",
+                medium: "Alagoas, Brasil",
+                dimensions: "2025",
+                description: "",
+                category: ["fotografar"]
+            },
+            {
+                id: 23,
+                images: [
+                    "media/portfolio/23 - voo brasil/1.png",
+                    "media/portfolio/23 - voo brasil/2.png"
+                ],
+                title: "Bem-Te-Vi",
+                medium: "Pernambuco, Brasil",
+                dimensions: "2025",
+                description: "\"quem perde um pássaro de vista vê-o por inteiro\n(essa é toda a história do amor)\"\n\nSinto-me constantemente acompanhada por aquilo que não posso compreender.\n\nPenso que o que mais nos pode levar ao amor é a maneira como permitimos que o tempo passe. Desenhado com uma linha de crescimento muito certa, o amor fortalece-se de acordo com as nossas capacidades de observação, imaginação, dedução e tradução.\n\nE como é costume, gosto de dar exemplos:\n\n- A dimensão de uma onda é uma tradução do mar;\n- Um voo de pássaro traduz o céu num único percurso até ao coração;\n- E uma única memória pode traduzir todos os meus gestos numa intenção muito simples: aproximar-me dos exemplos mais genuínos que conheço.\n\nSinto-me acompanhada por aquilo que não compreendo, é verdade.\n\nEntre abraços e fotografias, existe sempre um pássaro de distância entre mim e quem me ama. Entre voos curtos e atlânticos, encontramo-nos, juntamente com aqueles que voam connosco desde o coração.\n\nA partir de um determinado momento, somos sim aquilo que amamos. Mas desde o primeiro instante, as nossas asas tomam forma a partir daquilo que nos ama.\n\nPerder um pássaro de vista é poder guardar um único voo por uma vida inteira, porque um voo verdadeiro encontra sempre um pássaro para continuar.",
+                category: ["fotografar", "escrever"]
+            },
+            {
+                id: 24,
+                images: [
+                    "media/portfolio/24 - paa/1.jpg",
+                    "media/portfolio/24 - paa/2.jpg",
+                    "media/portfolio/24 - paa/3.jpg",
+                    "media/portfolio/24 - paa/4.jpg",
+                    "media/portfolio/24 - paa/5.jpg",
+                    "media/portfolio/24 - paa/6.jpg",
+                    "media/portfolio/24 - paa/7.jpg",
+                    "media/portfolio/24 - paa/8.jpg",
+                    "media/portfolio/24 - paa/9.jpg",
+                    "media/portfolio/24 - paa/10.jpg",
+                    "media/portfolio/24 - paa/11.jpg",
+                    "media/portfolio/24 - paa/12.jpg",
+                    "media/portfolio/24 - paa/13.jpg"
+                ],
+                title: "Prova de Aptidão Artística",
+                medium: "Instituto das Artes e da Imagem",
+                dimensions: "2020",
+                description: "",
+                category: ["projetar"]
+            },
+            {
+                id: 25,
+                images: [
+                    "media/portfolio/25 - faup - 1º ano/1.jpg",
+                    "media/portfolio/25 - faup - 1º ano/2.jpg",
+                    "media/portfolio/25 - faup - 1º ano/3.jpg",
+                    "media/portfolio/25 - faup - 1º ano/4.jpg"
+                ],
+                title: "Exercício abstrato - FAUP",
+                medium: "Faculdade de Arquitetura da Universidade do Porto",
+                dimensions: "2020",
+                description: "",
+                category: ["projetar"]
+            },
+            {
+                id: 26,
+                images: [
+                    "media/portfolio/26 - casa para um botânico - faup - 1º ano/1.jpg",
+                    "media/portfolio/26 - casa para um botânico - faup - 1º ano/2.jpg",
+                    "media/portfolio/26 - casa para um botânico - faup - 1º ano/3.jpg",
+                    "media/portfolio/26 - casa para um botânico - faup - 1º ano/4.jpg",
+                    "media/portfolio/26 - casa para um botânico - faup - 1º ano/5.jpg",
+                    "media/portfolio/26 - casa para um botânico - faup - 1º ano/6.jpg",
+                    "media/portfolio/26 - casa para um botânico - faup - 1º ano/7.jpg",
+                    "media/portfolio/26 - casa para um botânico - faup - 1º ano/8.jpg",
+                    "media/portfolio/26 - casa para um botânico - faup - 1º ano/9.jpg"
+                ],
+                title: "Casa para um botânico - FAUP",
+                medium: "Faculdade de Arquitetura da Universidade do Porto",
+                dimensions: "2021",
+                description: "",
+                category: ["projetar"]
+            },
+            {
+                id: 27,
+                images: [
+                    "media/portfolio/27 - processo 3º ano faup/1.jpg",
+                    "media/portfolio/27 - processo 3º ano faup/2.jpg",
+                    "media/portfolio/27 - processo 3º ano faup/3.jpg",
+                    "media/portfolio/27 - processo 3º ano faup/4.jpg",
+                    "media/portfolio/27 - processo 3º ano faup/5.jpg"
+                ],
+                title: "",
+                medium: "",
+                dimensions: "",
+                description: "",
+                category: [""]
             },
         ];
         
