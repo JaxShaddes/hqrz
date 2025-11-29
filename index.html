@@ -383,48 +383,46 @@
         
         /* Carousel Container */
         .carousel-container {
-            position: relative;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+}
 
         /* Carousel Navigation Buttons */
         .carousel-btn {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background-color: rgba(255, 255, 255, 0.9);
-            border: none;
-            border-radius: 50%;
-            width: 48px;
-            height: 48px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: none;
-            z-index: 10;
-            transition: all 0.3s ease;
-            color: #2d2d2d;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-        }
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: none;
+    z-index: 10;
+    transition: all 0.3s ease;
+    color: #2d2d2d;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
 
         .carousel-btn:hover {
-            background-color: rgba(255, 255, 255, 1);
-            transform: translateY(-50%) scale(1.1);
-        }
+    background-color: rgba(255, 255, 255, 1);
+    transform: translateY(-50%) scale(1.1);
+}
 
         .carousel-btn:active {
             transform: translateY(-50%) scale(0.95);
         }
 
         .carousel-prev {
-            left: 20px;
+            left: 10px;
         }
 
         .carousel-next {
-            right: 20px;
+            right: 10px;
         }
 
         .carousel-btn.hidden {
@@ -835,7 +833,7 @@
                 <button class="filter-btn px-6 py-2 border border-gray-300 rounded-full text-sm tracking-wider" data-category="fotografar">FOTOGRAFAR</button>
                 <button class="filter-btn px-6 py-2 border border-gray-300 rounded-full text-sm tracking-wider" data-category="escrever">ESCREVER</button>
                 <button class="filter-btn px-6 py-2 border border-gray-300 rounded-full text-sm tracking-wider" data-category="projetar">PROJETAR</button>
-                <button class="filter-btn px-6 py-2 border border-gray-300 rounded-full text-sm tracking-wider" data-category="arquitetura">ARQUITETURA</button>
+                <button class="filter-btn px-6 py-2 border border-gray-300 rounded-full text-sm tracking-wider" data-category="arquitetura">ARQUITECTURA</button>
             </div>
             
             <!-- Gallery Grid -->
@@ -1430,7 +1428,7 @@
                 medium: "Lisboa, Portugal",
                 dimensions: "2022",
                 description: "Servir a paisagem à (sobre)mesa",
-                category: ["Fotografar"]
+                category: ["fotografar"]
             },
             {
                 id: 31,
