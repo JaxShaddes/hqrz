@@ -310,8 +310,8 @@ window.HQRZ_DATA = {
     {
       "id": 17,
       "images": [
-        "media/portfolio/17 - centro miguel torga/1.jpg",
         "media/portfolio/17 - centro miguel torga/2.jpg",
+        "media/portfolio/17 - centro miguel torga/1.jpg",
         "media/portfolio/17 - centro miguel torga/3.jpg"
       ],
       "title": "Centro Miguel Torga - Souto Moura",
@@ -369,23 +369,6 @@ window.HQRZ_DATA = {
       ]
     },
     {
-      "id": 21,
-      "images": [
-        "media/portfolio/21 - curiosidade 2025/1.jpg",
-        "media/portfolio/21 - curiosidade 2025/2.jpg",
-        "media/portfolio/21 - curiosidade 2025/3.jpg",
-        "media/portfolio/21 - curiosidade 2025/4.jpg",
-        "media/portfolio/21 - curiosidade 2025/5.jpg"
-      ],
-      "title": "Curiosidade Atenta",
-      "medium": "Pernambuco, Brasil",
-      "dimensions": "2025",
-      "description": "",
-      "category": [
-        "fotografar"
-      ]
-    },
-    {
       "id": 22,
       "images": [
         "media/portfolio/22 - curiosidade 2 2025/1.jpg",
@@ -415,6 +398,23 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "escrever"
+      ]
+    },
+    {
+      "id": 21,
+      "images": [
+        "media/portfolio/21 - curiosidade 2025/1.jpg",
+        "media/portfolio/21 - curiosidade 2025/2.jpg",
+        "media/portfolio/21 - curiosidade 2025/3.jpg",
+        "media/portfolio/21 - curiosidade 2025/4.jpg",
+        "media/portfolio/21 - curiosidade 2025/5.jpg"
+      ],
+      "title": "Curiosidade Atenta",
+      "medium": "Pernambuco, Brasil",
+      "dimensions": "2025",
+      "description": "",
+      "category": [
+        "fotografar"
       ]
     },
     {
@@ -450,6 +450,77 @@ window.HQRZ_DATA = {
       "title": "Olinda",
       "medium": "Pernambuco, Brasil",
       "dimensions": "2025",
+      "description": "",
+      "category": [
+        "fotografar"
+      ]
+    },
+    {
+      "id": 30,
+      "images": [
+        "media/portfolio/30 - servir a paisagem à (sobre)mesa maat lisboa 2022/1.jpg",
+        "media/portfolio/30 - servir a paisagem à (sobre)mesa maat lisboa 2022/2.jpg"
+      ],
+      "title": "MAAT",
+      "medium": "Lisboa, Portugal",
+      "dimensions": "2022",
+      "description": "Servir a paisagem à (sobre)mesa",
+      "category": [
+        "fotografar"
+      ]
+    },
+    {
+      "id": 33,
+      "images": [
+        "media/portfolio/33 - pássaros/1.jpg",
+        "media/portfolio/33 - pássaros/2.jpg"
+      ],
+      "title": "Voar",
+      "medium": "Porto, Portugal",
+      "dimensions": "2024",
+      "description": "A fotografia justifica-me todas as esperas: diz-me paciência. \n\n Em todas as corridas de céu a que assisto, os pássaros vencem. Acompanho-os com atenção, aguardo pacientemente pelo voo que quero e, mesmo assim, existe sempre uma asa que me ultrapassa(ro) na escrita. \n\n Este afeto pela espera, devo ao menino que me ensinou o céu: verbo-pássaro da minha infância. Mantenho a minha atenção aos detalhes para que possamos continuar crianças juntos. Encontro-o em tudo aquilo a que me dedico desde o peito. \n\n Em todas as corridas de mar a que assisto, ele vence. Acompanho-o pelas ondas com atenção, e encontro-o depois da rebentação: o lugar onde o que importa é quem partilha o barco connosco. \n\n Aprendo a escrever quando aprendo a esperar. \n\n Os pássaros vão à frente porque não acreditam em corridas: voam porque sabem. E seja o barco, seja o voo, o lugar que importa é quem escolhemos para viajar connosco. \n\n Eu tenho um menino-coração. \n\n O seu aniversário seria amanhã. Comemoro com os pássaros, porque têm o verbo que, para ele, seria o mais bonito e fácil de alcançar: voar. \n\n - não há meta numa corrida de céu",
+      "category": [
+        "fotografar",
+        "escrever"
+      ]
+    },
+    {
+      "id": 32,
+      "images": [
+        "media/portfolio/32 - atenção porto 2023/1.jpg"
+      ],
+      "title": "Atenção",
+      "medium": "Porto. Portugal",
+      "dimensions": "2023",
+      "description": "",
+      "category": [
+        "fotografar"
+      ]
+    },
+    {
+      "id": 31,
+      "images": [
+        "media/portfolio/31 - das lições de pesca com o Sr. Vasco -  2022/1.jpg",
+        "media/portfolio/31 - das lições de pesca com o Sr. Vasco -  2022/2.jpg",
+        "media/portfolio/31 - das lições de pesca com o Sr. Vasco -  2022/3.jpg"
+      ],
+      "title": "Lições de Pesca com o Sr. Vasco",
+      "medium": "Porto, Portugal",
+      "dimensions": "2022",
+      "description": "",
+      "category": [
+        "fotografar"
+      ]
+    },
+    {
+      "id": 34,
+      "images": [
+        "media/portfolio/34 - das esperas porto 2022/1.jpg",
+        "media/portfolio/34 - das esperas porto 2022/2.jpg"
+      ],
+      "title": "Das esperas",
+      "medium": "Porto, Portugal",
+      "dimensions": "2022",
       "description": "",
       "category": [
         "fotografar"
@@ -532,77 +603,6 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "projetar"
-      ]
-    },
-    {
-      "id": 30,
-      "images": [
-        "media/portfolio/30 - servir a paisagem à (sobre)mesa maat lisboa 2022/1.jpg",
-        "media/portfolio/30 - servir a paisagem à (sobre)mesa maat lisboa 2022/2.jpg"
-      ],
-      "title": "MAAT",
-      "medium": "Lisboa, Portugal",
-      "dimensions": "2022",
-      "description": "Servir a paisagem à (sobre)mesa",
-      "category": [
-        "fotografar"
-      ]
-    },
-    {
-      "id": 31,
-      "images": [
-        "media/portfolio/31 - das lições de pesca com o Sr. Vasco -  2022/1.jpg",
-        "media/portfolio/31 - das lições de pesca com o Sr. Vasco -  2022/2.jpg",
-        "media/portfolio/31 - das lições de pesca com o Sr. Vasco -  2022/3.jpg"
-      ],
-      "title": "Lições de Pesca com o Sr. Vasco",
-      "medium": "Porto, Portugal",
-      "dimensions": "2022",
-      "description": "",
-      "category": [
-        "fotografar"
-      ]
-    },
-    {
-      "id": 32,
-      "images": [
-        "media/portfolio/32 - atenção porto 2023/1.jpg"
-      ],
-      "title": "Atenção",
-      "medium": "Porto. Portugal",
-      "dimensions": "2023",
-      "description": "",
-      "category": [
-        "fotografar"
-      ]
-    },
-    {
-      "id": 33,
-      "images": [
-        "media/portfolio/33 - pássaros/1.jpg",
-        "media/portfolio/33 - pássaros/2.jpg"
-      ],
-      "title": "Voar",
-      "medium": "Porto, Portugal",
-      "dimensions": "2024",
-      "description": "A fotografia justifica-me todas as esperas: diz-me paciência. \n\n Em todas as corridas de céu a que assisto, os pássaros vencem. Acompanho-os com atenção, aguardo pacientemente pelo voo que quero e, mesmo assim, existe sempre uma asa que me ultrapassa(ro) na escrita. \n\n Este afeto pela espera, devo ao menino que me ensinou o céu: verbo-pássaro da minha infância. Mantenho a minha atenção aos detalhes para que possamos continuar crianças juntos. Encontro-o em tudo aquilo a que me dedico desde o peito. \n\n Em todas as corridas de mar a que assisto, ele vence. Acompanho-o pelas ondas com atenção, e encontro-o depois da rebentação: o lugar onde o que importa é quem partilha o barco connosco. \n\n Aprendo a escrever quando aprendo a esperar. \n\n Os pássaros vão à frente porque não acreditam em corridas: voam porque sabem. E seja o barco, seja o voo, o lugar que importa é quem escolhemos para viajar connosco. \n\n Eu tenho um menino-coração. \n\n O seu aniversário seria amanhã. Comemoro com os pássaros, porque têm o verbo que, para ele, seria o mais bonito e fácil de alcançar: voar. \n\n - não há meta numa corrida de céu",
-      "category": [
-        "fotografar",
-        "escrever"
-      ]
-    },
-    {
-      "id": 34,
-      "images": [
-        "media/portfolio/34 - das esperas porto 2022/1.jpg",
-        "media/portfolio/34 - das esperas porto 2022/2.jpg"
-      ],
-      "title": "Das esperas",
-      "medium": "Porto, Portugal",
-      "dimensions": "2022",
-      "description": "",
-      "category": [
-        "fotografar"
       ]
     }
   ]
