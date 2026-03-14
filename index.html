@@ -1459,9 +1459,26 @@
         </div>
     </div>
     
+    <script src="data.js"></script>
+    <script>
+        (function () {
+            const params = new URLSearchParams(window.location.search);
+            if (params.get('adminPreview') !== '1') return;
+            try {
+                const raw = localStorage.getItem('hqrz_editor_preview_v1');
+                if (!raw) return;
+                const parsed = JSON.parse(raw);
+                if (parsed && typeof parsed === 'object') {
+                    window.HQRZ_DATA = parsed;
+                }
+            } catch (err) {
+                // ignore
+            }
+        })();
+    </script>
     <script>
         // Gallery Data - Updated to use images array
-        const galleryData = [
+        let galleryData = [
             {
                 id: 1,
                 images: [
@@ -1948,6 +1965,98 @@
                 category: ["fotografar"]
             },
         ];
+
+        if (window.HQRZ_DATA && Array.isArray(window.HQRZ_DATA.gallery)) {
+            galleryData = window.HQRZ_DATA.gallery;
+        }
+
+        function applySiteData() {
+            const data = window.HQRZ_DATA;
+            if (!data) return;
+
+            const brand = document.querySelector('#navbar a[href="#home"]');
+            if (brand && data.nav && data.nav.brand) {
+                brand.textContent = data.nav.brand;
+            }
+
+            if (data.nav && Array.isArray(data.nav.links)) {
+                const navLinks = document.querySelectorAll('#navbar .nav-link');
+                data.nav.links.forEach((label, idx) => {
+                    if (navLinks[idx]) navLinks[idx].textContent = label;
+                });
+
+                const mobileLinks = document.querySelectorAll('#mobile-menu .mobile-nav-link');
+                data.nav.links.forEach((label, idx) => {
+                    if (mobileLinks[idx]) mobileLinks[idx].textContent = label;
+                });
+            }
+
+            const hero = document.getElementById('home');
+            if (hero && data.hero) {
+                const h1 = hero.querySelector('h1');
+                if (h1 && data.hero.title) h1.textContent = data.hero.title;
+                const heroPs = hero.querySelectorAll('p');
+                if (heroPs[0] && data.hero.quote !== undefined) heroPs[0].textContent = data.hero.quote;
+                if (heroPs[1] && data.hero.description !== undefined) heroPs[1].textContent = data.hero.description;
+                const heroBtn = hero.querySelector('a[href="#gallery"]');
+                if (heroBtn && data.hero.button) heroBtn.textContent = data.hero.button;
+                const heroImageEl = hero.querySelector('.hero-image-fade') || hero.querySelector('.absolute.inset-0');
+                if (heroImageEl && data.hero.image) {
+                    const styleText = heroImageEl.getAttribute('style') || '';
+                    if (/background-image/i.test(styleText)) {
+                        heroImageEl.setAttribute('style', styleText.replace(/background-image\\s*:\\s*url\\([^)]*\\)/i, `background-image: url('${data.hero.image}')`));
+                    } else {
+                        heroImageEl.style.backgroundImage = `url('${data.hero.image}')`;
+                    }
+                }
+            }
+
+            const about = document.getElementById('about');
+            if (about && data.about) {
+                const title = about.querySelector('h2');
+                if (title && data.about.title) title.textContent = data.about.title;
+                const img = about.querySelector('img');
+                if (img && data.about.image) img.setAttribute('src', data.about.image);
+                if (img && data.about.imageAlt !== undefined) img.setAttribute('alt', data.about.imageAlt);
+                const aboutPs = about.querySelectorAll('p.text-lg');
+                if (aboutPs[0] && data.about.paragraphs && data.about.paragraphs[0] !== undefined) {
+                    aboutPs[0].textContent = data.about.paragraphs[0];
+                }
+                if (aboutPs[1] && data.about.paragraphs && data.about.paragraphs[1] !== undefined) {
+                    aboutPs[1].textContent = data.about.paragraphs[1];
+                }
+                const insta = about.querySelector('a[href*="instagram.com"]');
+                if (insta && data.about.instagram) insta.setAttribute('href', data.about.instagram);
+                const linkedin = about.querySelector('a[href*="linkedin.com"]');
+                if (linkedin && data.about.linkedin) linkedin.setAttribute('href', data.about.linkedin);
+            }
+
+            const contact = document.getElementById('contact');
+            if (contact && data.contact) {
+                const title = contact.querySelector('h2');
+                if (title && data.contact.title) title.textContent = data.contact.title;
+                const intro = contact.querySelector('p.text-center');
+                if (intro && data.contact.intro !== undefined) intro.textContent = data.contact.intro;
+                const newsletterTitle = contact.querySelector('.mt-16 h3');
+                if (newsletterTitle && data.contact.newsletterTitle) newsletterTitle.textContent = data.contact.newsletterTitle;
+                const newsletterText = contact.querySelector('.mt-16 p');
+                if (newsletterText && data.contact.newsletterText !== undefined) newsletterText.textContent = data.contact.newsletterText;
+            }
+
+            const footer = document.querySelector('footer');
+            if (footer && data.footer) {
+                const brand = footer.querySelector('p.text-3xl');
+                if (brand && data.footer.brand) brand.textContent = data.footer.brand;
+                const tagline = footer.querySelector('p.text-sm');
+                if (tagline && data.footer.tagline !== undefined) tagline.textContent = data.footer.tagline;
+                const copyright = footer.querySelector('p.text-xs');
+                if (copyright && data.footer.copyright !== undefined) copyright.textContent = data.footer.copyright;
+                const footerInsta = footer.querySelector('a[href*=\"instagram.com\"]');
+                if (footerInsta && data.footer.instagram) footerInsta.setAttribute('href', data.footer.instagram);
+                const footerContact = footer.querySelector('a[href=\"#contact\"]');
+                if (footerContact && data.footer.contactLabel) footerContact.textContent = data.footer.contactLabel;
+            }
+        }
         
         // Render Gallery
         function renderGallery(category = 'tudo') {
@@ -2256,6 +2365,7 @@
         
         // Observe all fade-in elements
         document.addEventListener('DOMContentLoaded', () => {
+            applySiteData();
             document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
             renderGallery();
         });
