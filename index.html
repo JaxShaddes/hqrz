@@ -2061,7 +2061,8 @@
         // Render Gallery
         function renderGallery(category = 'tudo') {
         const grid = document.getElementById('gallery-grid');
-        const filteredData = category === 'tudo' ? galleryData : galleryData.filter(item => {
+        const visibleData = galleryData.filter(item => !item.hidden);
+        const filteredData = category === 'tudo' ? visibleData : visibleData.filter(item => {
             if (Array.isArray(item.category)) {
                 return item.category.includes(category);
             } else {
