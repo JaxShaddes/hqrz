@@ -20,8 +20,8 @@ window.HQRZ_DATA = {
     "image": "media/img/profile.jpg",
     "imageAlt": "hqrz portrait",
     "paragraphs": [
-      "Todos os meus caminhos atravessam a fotografia, a escrita e a arquitectura. \r\n                        A minha abordagem caracteriza-se essencialmente na observação: o pé direito infinito da atenção. Tradutora de horizontes, aprendo muito com os pássaros e faço do coração uma profissão contínua. Percorro longas distâncias em busca de um único detalhe. O corpo da minha escrita são as referências naturais e tudo o que parte da sensibilidade - coleciono temperaturas, horizontes, paisagens, nomes de barcos e endereços.",
-      "Cresci assim, a suspeitar de que o impossível está apenas escondido, à espera de uma gentileza, pronto para mostrar-se diante da atenção.\r\n                        Certa vez, disseram-me: “é tremendo que se atravessa”. E atravessei: construo pontes com a memória."
+      "Todos os meus caminhos atravessam a fotografia, a escrita e a arquitectura. \n                        A minha abordagem caracteriza-se essencialmente na observação: o pé direito infinito da atenção. Tradutora de horizontes, aprendo muito com os pássaros e faço do coração uma profissão contínua. Percorro longas distâncias em busca de um único detalhe. O corpo da minha escrita são as referências naturais e tudo o que parte da sensibilidade - coleciono temperaturas, horizontes, paisagens, nomes de barcos e endereços.",
+      "Cresci assim, a suspeitar de que o impossível está apenas escondido, à espera de uma gentileza, pronto para mostrar-se diante da atenção.\n                        Certa vez, disseram-me: “é tremendo que se atravessa”. E atravessei: construo pontes com a memória."
     ],
     "instagram": "https://www.instagram.com/hqueirz",
     "linkedin": "https://www.linkedin.com/in/hqueirz/"
@@ -35,7 +35,7 @@ window.HQRZ_DATA = {
   "footer": {
     "brand": "hqrz",
     "tagline": "Fotógrafa • Arquiteta • Escritora de poesia",
-    "copyright": "© 2025 hqrz. Todos os direitos reservados.",
+    "copyright": "© 2026 hqrz. Todos os direitos reservados.",
     "instagram": "https://www.instagram.com/hqueirz",
     "contactLabel": "Contacto"
   },
@@ -54,7 +54,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "escrever"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 2,
@@ -72,7 +73,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 3,
@@ -86,7 +88,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 4,
@@ -102,7 +105,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "escrever"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 5,
@@ -116,7 +120,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "escrever"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 6,
@@ -132,7 +137,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "arquitectura"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 7,
@@ -151,7 +157,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "arquitectura"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 8,
@@ -169,7 +176,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "arquitectura"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 9,
@@ -186,7 +194,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "arquitectura"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 10,
@@ -202,7 +211,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "arquitectura"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 11,
@@ -220,7 +230,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "arquitectura"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 12,
@@ -234,7 +245,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "escrever"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 13,
@@ -251,7 +263,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 14,
@@ -269,7 +282,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 15,
@@ -287,7 +301,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "arquitectura"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 16,
@@ -305,7 +320,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "arquitectura"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 17,
@@ -321,7 +337,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "arquitectura"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 18,
@@ -338,7 +355,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "escrever"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 19,
@@ -352,7 +370,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 20,
@@ -366,7 +385,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "escrever"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 22,
@@ -383,7 +403,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 23,
@@ -398,7 +419,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "escrever"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 21,
@@ -415,7 +437,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 29,
@@ -429,7 +452,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 28,
@@ -453,7 +477,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 30,
@@ -467,7 +492,8 @@ window.HQRZ_DATA = {
       "description": "Servir a paisagem à (sobre)mesa",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 33,
@@ -482,7 +508,8 @@ window.HQRZ_DATA = {
       "category": [
         "fotografar",
         "escrever"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 32,
@@ -495,7 +522,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 31,
@@ -510,7 +538,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 34,
@@ -524,7 +553,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "fotografar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 24,
@@ -549,7 +579,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "projetar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 25,
@@ -565,7 +596,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "projetar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 26,
@@ -586,7 +618,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "projetar"
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": 27,
@@ -603,7 +636,8 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "projetar"
-      ]
+      ],
+      "hidden": false
     }
   ]
 };
