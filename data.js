@@ -17,7 +17,7 @@ window.HQRZ_DATA = {
   },
   "about": {
     "title": "Hingryd Queiroz",
-    "image": "media/img/profile.jpg",
+    "image": "media/img/perfil.jpg",
     "imageAlt": "hqrz portrait",
     "paragraphs": [
       "Todos os meus caminhos atravessam a fotografia, a escrita e a arquitectura. \n                        A minha abordagem caracteriza-se essencialmente na observação: o pé direito infinito da atenção. Tradutora de horizontes, aprendo muito com os pássaros e faço do coração uma profissão contínua. Percorro longas distâncias em busca de um único detalhe. O corpo da minha escrita são as referências naturais e tudo o que parte da sensibilidade - coleciono temperaturas, horizontes, paisagens, nomes de barcos e endereços.",
@@ -364,7 +364,7 @@ window.HQRZ_DATA = {
         "media/portfolio/19 - escultura - 2025/1.jpg",
         "media/portfolio/19 - escultura - 2025/2.jpg"
       ],
-      "title": "Afeto em Escultura",
+      "title": "Afeto em escultura",
       "medium": "Pernambuco, Brasil",
       "dimensions": "2025",
       "description": "",
@@ -397,7 +397,7 @@ window.HQRZ_DATA = {
         "media/portfolio/22 - curiosidade 2 2025/4.jpg",
         "media/portfolio/22 - curiosidade 2 2025/5.jpg"
       ],
-      "title": "Entre os frutos e o Mar, a Ternura",
+      "title": "Entre os frutos e o mar, a ternura",
       "medium": "Alagoas, Brasil",
       "dimensions": "2025",
       "description": "",
@@ -412,7 +412,7 @@ window.HQRZ_DATA = {
         "media/portfolio/23 - voo brasil/1.jpg",
         "media/portfolio/23 - voo brasil/2.jpg"
       ],
-      "title": "Bem-Te-Vi",
+      "title": "Bem-te-vi",
       "medium": "Pernambuco, Brasil",
       "dimensions": "2025",
       "description": "\"quem perde um pássaro de vista vê-o por inteiro\n(essa é toda a história do amor)\"\n\nSinto-me constantemente acompanhada por aquilo que não posso compreender.\n\nPenso que o que mais nos pode levar ao amor é a maneira como permitimos que o tempo passe. Desenhado com uma linha de crescimento muito certa, o amor fortalece-se de acordo com as nossas capacidades de observação, imaginação, dedução e tradução.\n\nE como é costume, gosto de dar exemplos:\n\n- A dimensão de uma onda é uma tradução do mar;\n- Um voo de pássaro traduz o céu num único percurso até ao coração;\n- E uma única memória pode traduzir todos os meus gestos numa intenção muito simples: aproximar-me dos exemplos mais genuínos que conheço.\n\nSinto-me acompanhada por aquilo que não compreendo, é verdade.\n\nEntre abraços e fotografias, existe sempre um pássaro de distância entre mim e quem me ama. Entre voos curtos e atlânticos, encontramo-nos, juntamente com aqueles que voam connosco desde o coração.\n\nA partir de um determinado momento, somos sim aquilo que amamos. Mas desde o primeiro instante, as nossas asas tomam forma a partir daquilo que nos ama.\n\nPerder um pássaro de vista é poder guardar um único voo por uma vida inteira, porque um voo verdadeiro encontra sempre um pássaro para continuar.",
@@ -431,7 +431,7 @@ window.HQRZ_DATA = {
         "media/portfolio/21 - curiosidade 2025/4.jpg",
         "media/portfolio/21 - curiosidade 2025/5.jpg"
       ],
-      "title": "Curiosidade Atenta",
+      "title": "Curiosidade atenta",
       "medium": "Pernambuco, Brasil",
       "dimensions": "2025",
       "description": "",
@@ -446,7 +446,7 @@ window.HQRZ_DATA = {
         "media/portfolio/29 - areia das pequenas coisas/1.jpg",
         "media/portfolio/29 - areia das pequenas coisas/2.jpg"
       ],
-      "title": "Areia das Pequenas coisas",
+      "title": "Areia das pequenas coisas",
       "medium": "Alagoas, Brasil",
       "dimensions": "2025",
       "description": "",
@@ -532,7 +532,7 @@ window.HQRZ_DATA = {
         "media/portfolio/31 - das lições de pesca com o Sr. Vasco -  2022/2.jpg",
         "media/portfolio/31 - das lições de pesca com o Sr. Vasco -  2022/3.jpg"
       ],
-      "title": "Lições de Pesca com o Sr. Vasco",
+      "title": "Lições de pesca com o Sr. Vasco",
       "medium": "Porto, Portugal",
       "dimensions": "2022",
       "description": "",
@@ -636,6 +636,40 @@ window.HQRZ_DATA = {
       "description": "",
       "category": [
         "projetar"
+      ],
+      "hidden": false
+    },
+    {
+      "id": 35,
+      "images": [
+        "media/portfolio/35 - barco/3.jpg",
+        "media/portfolio/35 - barco/1.jpg",
+        "media/portfolio/35 - barco/2.jpg"
+      ],
+      "title": "\"O meu amor dá-se em letras.\" ",
+      "medium": "Porto",
+      "dimensions": "2026",
+      "description": "\"O meu amor dá-se em letras.\" \n\nÀ parte dos gestos, a paisagem traz muito mais intimidade à escrita. Através das letras umas ao lado das outras, mantenho sempre este modo-mergulhar de amar. \n\nO meu amor dá-se em letras porque não sigo por nenhum outro caminho que não comece por escrever. \"A mão feliz está rodeada por palavras até à ponta dos dedos\", e assim um dia permaneci num só poema, em busca de um único instante que hoje coleciono a repetir: este amar até só restar coração.\n\nDepois de aprender nos barcos os nomes de tudo o que me atravessa, reconheço que todas as respostas são mais doces junto ao mar. Reconheço que todos os horizontes são mais sólidos quando és tu quem chega em forma de água.\n\nÀ parte dos gestos, amo porque me concentro na paisagem. \n\nO meu amor dá-se pela proximidade com a água: amar o outro (at)é sentir o mar - escrevi isto uma vez e nunca mais me esqueci. Mergulho porque dás-me pé depois da zona de rebentação. \n\nA partir dos gestos, atravesso porque já só me resta coração. Partilhar um verbo é partilhar um barco sem pensar em chegar.\n\nO meu amor dá-se em letras: haverei sempre de começar pelo teu nome. \n\nNa profundidade mais íntima de qualquer horizonte, a primeira letra do mar nunca deixará de ser o amor.\n\n_\nhqrz | 21032026",
+      "category": [
+        "fotografar",
+        "escrever"
+      ],
+      "hidden": false
+    },
+    {
+      "id": 36,
+      "images": [
+        "media/portfolio/36 - memória/3.jpg",
+        "media/portfolio/36 - memória/1.jpg",
+        "media/portfolio/36 - memória/2.jpg"
+      ],
+      "title": "A escala da memória",
+      "medium": "Porto",
+      "dimensions": "2026",
+      "description": "A memória aproxima-se da escala da água. O sol participa na textura das ondas e o mar acredita ter o espaço de um coração. O contorno do amor só pode ser um cenário de céu.\n\nA memória aproxima-se da escala da água. As ondas convidam o mar para ter ainda mais espaço no meu coração. Apenas um cenário de amor pode traduzir este céu. \n\nA memória aproxima-se da escala da água e só o coração conhece todas as texturas de amor. \n\n_\nhqrz | 28032026",
+      "category": [
+        "fotografar",
+        "escrever"
       ],
       "hidden": false
     }
